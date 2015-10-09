@@ -8,6 +8,8 @@
 
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/jumbotron.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/jia2015/pdfplugin.css">
+
 
 	</head>
 	<body ng-controller="AlmacenJia2015 as almacen" ng-init="orden = 'nombre'">
@@ -60,7 +62,7 @@
           		<p>{{articulo.autor}}</p>
               <p><em>{{articulo.origen}}</em></p>
               <p>{{articulo.categoria}}</p>
-          		<p><a class="btn btn-default" href="{{articulo.url}}" role="button" target="_blank">Ver documento &raquo;</a></p>
+          		<p><a class="btn btn-default view-pdf" href="{{articulo.url}}" role="button" target="_blank">Ver documento &raquo;</a></p>
         		</div>
        		</div> 
     	</div>
@@ -73,7 +75,7 @@
               <p>{{articulo.autor}}</p>
               <p><em>{{articulo.origen}}</em></p>
               <p>{{articulo.categoria}}</p>
-              <p><a class="btn btn-default" href="{{articulo.url}}" role="button" target="_blank">Ver documento &raquo;</a></p>
+              <p><a class="btn btn-default view-pdf" href="{{articulo.url}}" role="button" target="_blank">Ver documento &raquo;</a></p>
             </div>
           </div> 
       </div>
@@ -86,7 +88,7 @@
               <p>{{articulo.autor}}</p>
               <p><em>{{articulo.origen}}</em></p>
               <p>{{articulo.categoria}}</p>
-              <p><a class="btn btn-default" href="{{articulo.url}}" role="button" target="_blank">Ver documento &raquo;</a></p>
+              <p><a class="btn btn-default view-pdf" href="{{articulo.url}}" role="button" target="_blank">Ver documento &raquo;</a></p>
             </div>
           </div> 
       </div>      
@@ -100,10 +102,13 @@
       </div>
 
 
+
 		<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="bower_components/jia2015/jia2015.js"></script>
+    <script type="text/javascript" src="bower_components/jia2015/pdfplugin.js"></script>
+
 
 
 	</body>

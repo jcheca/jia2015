@@ -9,7 +9,7 @@
         autor: "Prof. Dr. Hubert Chanson.",
         categoria: "Conferencia Inaugural",
         origen: "The University of Queensland, Brisbane, Australia",
-        url: "a/a001.pdf"
+        url: "a/prg_081015.pdf"
       },
       {
         nombre: "Abriendo surcos al agua",
@@ -23,7 +23,7 @@
         autor: "Fátima",
         categoria: "Presentación de las Jornaadas",
         origen: "",
-        url: ""
+        url: "b/instr_ponentes.pdf"
       },
       {
         nombre: "Predicción estacional del caudal de los riós ibéricos a partir de índices climáticos",
