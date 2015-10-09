@@ -1,0 +1,5 @@
+[AutoRun]
+OPEN=winopen \jia2015.html
+ICON=bower_components/logos/logojia2015.png
+ACTION=Start my application
+LABEL=Ponencias Jia2015
